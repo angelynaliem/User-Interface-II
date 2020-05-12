@@ -1,0 +1,40 @@
+/* Add CSS styling here */
+body {
+    background-color: #000000;
+    color: #FFFAF0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+    background-color: whitesmoke;
+    color: hotpink;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 3;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    justify-content: space-evenly;
+  
+}
