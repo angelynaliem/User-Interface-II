@@ -1,0 +1,66 @@
+/* Add CSS styling here */
+
+body {
+    background-color: #000000;
+    color: #FFFAF0;
+    padding: 5%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+    background-color: whitesmoke;
+    color: hotpink;
+    padding: 5%;
+}
+
+.navigationitems {
+    color: hotpink;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        color: forestgreen;
+    }
+    .intro {
+        color: forestgreen;
+    }
+    .navigationitems {
+        color: white;
+    }    
+    figcaption {
+        color: forestgreen;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        color: darkorange;
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    padding: 5%;
+    font-size: 250%;
+    justify-content: space-evenly;
+  
+}
